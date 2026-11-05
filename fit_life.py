@@ -1,8 +1,9 @@
 #  Проект FitLife - MVP версия 1.0
 #  Первый проект (с опозданием :())
 
-import sys
 import io
+import sys
+
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', newline='')
 
 user_name = input(
